@@ -1,0 +1,21 @@
+.socials-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  gap: 10px;
+
+  &__link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 50%;
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+}

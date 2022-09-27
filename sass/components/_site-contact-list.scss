@@ -1,0 +1,21 @@
+.contact-list__link {
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: inherit;
+
+  @include customTransition(color);
+
+  &:hover,
+  &:focus {
+    color: $color-site-accent;
+  }
+}
+
+.contact-list__icon {
+  margin-right: 10px;
+  fill: currentColor;
+}
